@@ -1,0 +1,26 @@
+{
+	"id": "metus-technology-ingest-controller",
+	"name": "Metus Technology Ingest Controller",
+	"shortname": "ingest-controller",
+	"description": "Ingest controller.",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-metus-technology-ingest-controller.git",
+	"bugs": "https://github.com/bitfocus/companion-module-metus-technology-ingest-controller/issues",
+	"maintainers": [
+		{
+			"name": "Metus Technology",
+			"email": "support@metus.com"
+		}
+	],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "1.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Metus Technology",
+	"products": ["Ingest Controller"],
+	"keywords": []
+}

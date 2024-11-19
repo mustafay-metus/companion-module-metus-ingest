@@ -1,4 +1,5 @@
-# companion-module-metus-ingest
-See HELP.md and LICENSE
+# companion-module-metus-technology-ingest-controller
 
-[Link to API](https://metuskb.atlassian.net/wiki/spaces/INGEST/pages/5275821/INGEST+API+-+Socket+Commands)
+This module allows you to control [Metus Ingest](https://www.metus.com/metus-ingest/) using the [IngestWeb API](https://metuskb.atlassian.net/wiki/spaces/INGEST/pages/3182559237/Metus+IngestWEB+Controller).
+
+See [HELP.md](./companion/HELP.md) and [LICENSE](./LICENSE)
