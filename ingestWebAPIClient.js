@@ -443,7 +443,7 @@ export function initSignalRClient(state, config, moduleInstance) {
 				if (err.statusCode === 401) {
 					moduleInstance.updateStatus(InstanceStatus.AuthenticationFailure, 'Cannot login.')
 				} else {
-					moduleInstance.updateStatus(InstanceStatus.ConnectionFailure, 'Cannot connect to IngsetWEB API.')
+					moduleInstance.updateStatus(InstanceStatus.ConnectionFailure, 'Cannot connect to IngestWeb API.')
 					return new Promise((resolve, reject) => {
 						setTimeout(() => start().then(resolve).catch(reject), 5000)
 					})
@@ -674,8 +674,8 @@ export function initRestClient(state, config, moduleInstance) {
 					moduleInstance.log('debug', 'Cannot login.')
 					moduleInstance.updateStatus(InstanceStatus.AuthenticationFailure, 'Cannot login.')
 				} else {
-					moduleInstance.log('debug', 'Cannot connect to IngsetWEB API.')
-					moduleInstance.updateStatus(InstanceStatus.ConnectionFailure, 'Cannot connect to IngsetWEB API.')
+					moduleInstance.log('debug', 'Cannot connect to IngestWeb API.')
+					moduleInstance.updateStatus(InstanceStatus.ConnectionFailure, 'Cannot connect to IngestWeb API.')
 				}
 			})
 	}
